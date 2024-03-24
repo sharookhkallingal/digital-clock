@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  
+  #clock {
+
+    font-size: 10rem;
+    margin-top: 220px;
+  }
+  
+  #toggle-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 180px;
+  }
+  
+  #toggle-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .dark {
+    background-color: #333;
+    color: #fff;
+  }
